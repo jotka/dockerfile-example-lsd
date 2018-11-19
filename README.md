@@ -12,5 +12,7 @@ Dockerfile example for LSD
     oc get services
 
     oc expose svc/dockerfile-example-lsd
+    
+    oc get routes
 
 http://dockerfile-example-lsd-myproject.127.0.0.1.nip.io
